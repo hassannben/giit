@@ -1,4 +1,4 @@
-name: ALL Build (Linux, macOS, Windows, Android, IPA, APK, AAB)
+name: ALL Build (Linux, Windows, Android, IPA, APK, AAB)
 
 on:
   push:
