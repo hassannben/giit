@@ -1,0 +1,17 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-name="###### RELAX 4K ######" tvg-logo="" group-title="RX| RELAX 4K ☼",###### RELAX 4K ######
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792137
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX MOROCCO 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX MOROCCO 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792136
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX ALGERIA 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX ALGERIA 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/1008544
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX ICELAND 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX ICELAND 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792135
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX NORWAY 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX NORWAY 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792134
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX AUSTRALIA 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX AUSTRALIA 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792133
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX ITALY 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX ITALY 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792132
+#EXTINF:-1 tvg-id="" tvg-name="RX: RELAX SWITZERLAND 4K" tvg-logo="http://icon-tmdb.me/stalker_portal/misc/logos/320/13765.png?ver=98748" group-title="RX| RELAX 4K ☼",RX: RELAX SWITZERLAND 4K
+http://cf.business-cdn.me:80/test/8ecf6b2ca9/792131
