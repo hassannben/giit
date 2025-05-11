@@ -1,26 +1,28 @@
-name: Build PyQt5 App for Multiple Platforms
+name: ALL Build (Linux, macOS, Windows, Android, IPA, APK, AAB)
 
 on:
   push:
     branches:
+      - master
       - main
   pull_request:
     branches:
+      - master
       - main
 
 jobs:
+  # بناء لجميع المنصات
   build:
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         android: [true]
-
     runs-on: ${{ matrix.os }}
-
+    
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
+        
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -47,6 +49,7 @@ jobs:
           name: ${{ matrix.os }}-build
           path: dist/
 
+  # بناء APK & AAB للأندرويد
   android:
     runs-on: ubuntu-latest
     needs: build
@@ -81,3 +84,10 @@ jobs:
           name: android-builds
           path: bin/
 
+  # بناء IPA للأجهزة الخاصة بـ Apple (macOS)
+  ios:
+    runs-on: macos-latest
+    needs: build
+
+    steps:
+      - name: Checkout c
